@@ -10,6 +10,11 @@ def map(array)
 end
 
 def reduce(array, starting_value = nil)
-  
+  if starting_value
+    num = starting_value
+    i = 0 
+  else
+    num = array[0]
+    i = 1 
   
 end
